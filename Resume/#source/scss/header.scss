@@ -1,0 +1,76 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+a[href^="mailto:"]{
+	color: #7d9393;
+}
+a[href^="tel:"]{
+	color: #7d9393;
+}
+a[href^="https://www.instagram.com/tooodaay/"]{
+	color: #7d9393;
+}
+.header {
+	background-color: #6a797a;
+	width: 100%;
+	height: 685px;
+	position: absolute;
+	.aboutme {
+		.blockimg {
+			background: #838d8e;
+			width: 370px;
+			height: 370px;
+			border-radius: 50%;
+			margin: 185px 130px 130px ;
+			.avatar{
+				padding: 30px 28px 30px 26px;
+			}
+		}
+		h1{
+			font-size: 92px;
+			line-height: 1.2;
+			font-weight: 900;
+			color: #fff;
+			margin: -400px 0px 0px 600px;
+		}
+		h2{
+			font-size: 48px;
+			line-height: 1.2;
+			font-weight: 500;
+			color: #fff;
+			margin: 20px 0px 0px 600px;
+		}
+	}	
+	.contact {
+		.links {
+			font-weight: 900;
+			font-size: 48px;
+			line-height: 1.2;
+			font-weight: 500;
+			margin: -160px 0px 0px 1260px;
+			li{
+				margin: 0px 0px 80px 0px;
+				&:nth-child(2){
+					margin: -130px 0px 0px 540px;
+				}
+				&:last-child{
+					margin: 60px 0px 0px -5px;
+				}
+			}
+			.imgtel {
+				margin-right: 35px;
+			}
+			.imgemail {
+				margin-right: 35px;
+				.email{
+					color: #7d9393;
+					
+				}
+			}
+			.imgww {
+				margin-right: 35px;
+			}
+		}
+	}
+}

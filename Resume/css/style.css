@@ -1,0 +1,508 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a[href^="mailto:"] {
+  color: #7d9393;
+}
+
+a[href^="tel:"] {
+  color: #7d9393;
+}
+
+a[href^="https://www.instagram.com/tooodaay/"] {
+  color: #7d9393;
+}
+
+.header {
+  background-color: #6a797a;
+  width: 100%;
+  height: 685px;
+  position: absolute;
+}
+
+.header .aboutme .blockimg {
+  background: #838d8e;
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  margin: 185px 130px 130px;
+}
+
+.header .aboutme .blockimg .avatar {
+  padding: 30px 28px 30px 26px;
+}
+
+.header .aboutme h1 {
+  font-size: 92px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #fff;
+  margin: -400px 0px 0px 600px;
+}
+
+.header .aboutme h2 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+  margin: 20px 0px 0px 600px;
+}
+
+.header .contact .links {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin: -160px 0px 0px 1260px;
+}
+
+.header .contact .links li {
+  margin: 0px 0px 80px 0px;
+}
+
+.header .contact .links li:nth-child(2) {
+  margin: -130px 0px 0px 540px;
+}
+
+.header .contact .links li:last-child {
+  margin: 60px 0px 0px -5px;
+}
+
+.header .contact .links .imgtel {
+  margin-right: 35px;
+}
+
+.header .contact .links .imgemail {
+  margin-right: 35px;
+}
+
+.header .contact .links .imgemail .email {
+  color: #7d9393;
+}
+
+.header .contact .links .imgww {
+  margin-right: 35px;
+}
+
+.content {
+  position: absolute;
+  margin: 820px 0px 0px 0px;
+  color: #4c5e60;
+  font-size: 40px;
+  line-height: 65px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  text-align: justify;
+}
+
+.content .lside {
+  margin: 0px 200px 0px 120px;
+  max-width: 1060px;
+}
+
+.content .pprofile .title {
+  border: 5px solid #7e8b8c;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  padding-bottom: 25px;
+}
+
+.content .pprofile p {
+  margin-top: 50px;
+}
+
+.content .workexp {
+  margin-top: 100px;
+}
+
+.content .workexp .exp {
+  border: 5px solid #7e8b8c;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  padding-bottom: 25px;
+}
+
+.content .workexp .test {
+  border: 3px solid #7e8b8c;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  margin: 77px 0px 0px 25px;
+  padding-left: 70px;
+  height: 1170px;
+}
+
+.content .workexp .test .list {
+  position: absolute;
+  margin: -87px 0px 0px 1px;
+  max-width: 950px;
+}
+
+.content .workexp .test .list .circle {
+  background: #4c5e60;
+  height: 29px;
+  width: 29px;
+  border-radius: 50%;
+  position: absolute;
+  margin: 12px 0px 0px -87px;
+}
+
+.content .workexp .test .list .listtitle {
+  margin: 75px 0px 25px 0px;
+  font-size: 45px;
+  line-height: 65px;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+}
+
+.content .workexp .test .list .listtitle .date {
+  color: #b0c0bd;
+}
+
+.content .awrds .awrd {
+  border: 5px solid #7e8b8c;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  padding-bottom: 25px;
+  margin: 115px 0px 75px 0px;
+}
+
+.content .awrds .awrdtitle {
+  font-size: 45px;
+  line-height: 65px;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+}
+
+.content .awrds .txtico {
+  margin: 0px 57px 0px 15px;
+}
+
+.content .awrds .awrdtt {
+  max-width: 890px;
+  margin: -30px 0px 0px 170px;
+}
+
+.content .rside {
+  margin: -2588px 0px 150px 1380px;
+  max-width: 1060px;
+}
+
+.content .rside .edu .edutitle {
+  border: 5px solid #7e8b8c;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  padding-bottom: 25px;
+}
+
+.content .rside .edu .eduli .circleplus {
+  width: 65px;
+  height: 65px;
+  border: 4px solid #716b69;
+  border-radius: 50%;
+  margin: 75px 0px 0px 0px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.content .rside .edu .eduli .circleplus .plus {
+  margin: -5px 0px 0px 1px;
+}
+
+.content .rside .edu .eduli .listedu {
+  margin: -170px 0px 0px 115px;
+}
+
+.content .rside .edu .eduli .listedu .edusubtitle {
+  margin: 75px 0px 25px 0px;
+  font-size: 45px;
+  line-height: 65px;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+}
+
+.content .rside .edu .eduli .listedu .edusubtitle .edudate {
+  color: #b0c0bd;
+}
+
+.content .rside .edu .eduli .listedu .edusubtitle .type {
+  color: #b0c0bd;
+}
+
+.content .rside .proskills .pro {
+  border: 5px solid #7e8b8c;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  padding-bottom: 25px;
+  margin-top: 100px;
+}
+
+.content .rside .proskills .skillconteiner {
+  font-weight: 600;
+  margin-top: 75px;
+}
+
+.content .rside .proskills .skillconteiner span {
+  display: inline-block;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.content .rside .proskills .skillconteiner .skill1 .scale1 {
+  background: #e9eeed;
+  width: 757px;
+  height: 65px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 10px 0px 0px 29%;
+}
+
+.content .rside .proskills .skillconteiner .skill1 .scale1 .scale2 {
+  width: 587px;
+  height: 63px;
+  background-color: #788687;
+  border-radius: 50px;
+}
+
+.content .rside .proskills .skillconteiner .skill2 .scale1 {
+  background: #e9eeed;
+  width: 757px;
+  height: 65px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 10px 0px 0px 29%;
+}
+
+.content .rside .proskills .skillconteiner .skill2 .scale1 .scale2 {
+  width: 645px;
+  height: 63px;
+  background-color: #788687;
+  border-radius: 50px;
+}
+
+.content .rside .proskills .skillconteiner .skill3 .scale1 {
+  background: #e9eeed;
+  width: 757px;
+  height: 65px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 10px 0px 0px 29%;
+}
+
+.content .rside .proskills .skillconteiner .skill3 .scale1 .scale2 {
+  width: 631px;
+  height: 63px;
+  background-color: #788687;
+  border-radius: 50px;
+}
+
+.content .rside .proskills .skillconteiner .skill4 .scale1 {
+  background: #e9eeed;
+  width: 757px;
+  height: 65px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 10px 0px 0px 29%;
+}
+
+.content .rside .proskills .skillconteiner .skill4 .scale1 .scale2 {
+  width: 719px;
+  height: 63px;
+  background-color: #788687;
+  border-radius: 50px;
+}
+
+.content .rside .proskills .skillconteiner .skill5 .scale1 {
+  background: #e9eeed;
+  width: 757px;
+  height: 65px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 10px 0px 0px 29%;
+}
+
+.content .rside .proskills .skillconteiner .skill5 .scale1 .scale2 {
+  width: 521px;
+  height: 63px;
+  background-color: #788687;
+  border-radius: 50px;
+}
+
+.content .rside .proskills .skillconteiner .skill6 .scale1 {
+  background: #e9eeed;
+  width: 757px;
+  height: 65px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 10px 0px 0px 29%;
+}
+
+.content .rside .proskills .skillconteiner .skill6 .scale1 .scale2 {
+  width: 521px;
+  height: 63px;
+  background-color: #788687;
+  border-radius: 50px;
+}
+
+.content .rside .perskills .per {
+  border: 5px solid #7e8b8c;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  padding-bottom: 25px;
+  margin-top: 100px;
+}
+
+.content .rside .perskills .sskilconteiner {
+  max-width: 1060px;
+  max-height: 850px;
+  position: relative;
+}
+
+.content .rside .perskills .sskilconteiner .skilltype {
+  z-index: 3;
+  margin: 150px 0px 0px -270px;
+  display: inline-block;
+  position: absolute;
+}
+
+.content .rside .perskills .sskilconteiner .skillidea {
+  margin: 150px 0px 0px -240px;
+}
+
+.content .rside .perskills .sskilconteiner .sskill {
+  display: inline-block;
+  margin: 50px 78px 0px 80px;
+}
+
+.content .rside .perskills .sskilconteiner .sskill .imgskills {
+  z-index: 1;
+}
+
+.content .rside .perskills .sskilconteiner .sskill .imgskill1 {
+  z-index: 2;
+  margin: 3px 0px 0px -364px;
+}
+
+.content .rside .perskills .sskilconteiner .sskill .imgskill2 {
+  z-index: 2;
+  margin: 0px 0px 0px -366px;
+}
+
+.content .rside .perskills .sskilconteiner .sskill .imgskill3 {
+  z-index: 2;
+  margin: 0px 0px 0px -350px;
+}
+
+.content .rside .perskills .sskilconteiner .sskill .imgskill4 {
+  z-index: 2;
+  margin: 3px 0px 0px -364px;
+}

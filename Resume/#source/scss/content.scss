@@ -1,0 +1,325 @@
+.content {
+	position: absolute;
+	margin: 820px 0px 0px 0px;
+	color: #4c5e60;
+	font-size: 40px;
+	line-height: 65px;
+	font-weight: 400;
+	letter-spacing: 0.005em;
+	text-align: justify;
+	.lside {
+		margin: 0px 200px 0px 120px;
+		max-width: 1060px;
+	}
+	.pprofile {
+		.title{
+			border: 5px solid #7e8b8c;
+			border-left: none;
+			border-top: none;
+			border-right: none;
+			font-size: 50px;
+			line-height: 1.2;
+			font-weight: 600;
+			letter-spacing: 0.025em;
+			padding-bottom: 25px;
+		}
+		p{
+			margin-top: 50px;
+		}
+	}
+	.workexp {
+		margin-top: 100px;
+		.exp{
+			border: 5px solid #7e8b8c;
+			border-left: none;
+			border-top: none;
+			border-right: none;
+			font-size: 50px;
+			line-height: 1.2;
+			font-weight: 600;
+			letter-spacing: 0.025em;
+			padding-bottom: 25px;
+		}
+		.test{
+			border: 3px solid #7e8b8c;
+			border-top: none;
+			border-right: none;
+			border-bottom: none;
+			margin: 77px 0px 0px 25px;
+			padding-left: 70px;
+			height: 1170px;
+			.list {
+				position: absolute;
+				margin:-87px 0px 0px 1px;
+				max-width: 950px;
+				.circle{
+					background: #4c5e60;
+					height: 29px;
+					width: 29px;
+					border-radius: 50%;
+					position: absolute;
+					margin: 12px 0px 0px -87px;
+				}
+				.listtitle{
+					margin: 75px 0px 25px 0px;
+					font-size: 45px;
+					line-height: 65px;
+					font-weight: 600;
+					letter-spacing: 0.005em;
+					
+					.date{
+						color: #b0c0bd;
+					}
+				}
+				.listinfo{
+				}
+			}
+		}
+	}
+	.awrds {
+		.awrd{
+			border: 5px solid #7e8b8c;
+			border-left: none;
+			border-top: none;
+			border-right: none;
+			font-size: 50px;
+			line-height: 1.2;
+			font-weight: 600;
+			letter-spacing: 0.025em;
+			padding-bottom: 25px;
+			margin: 115px 0px 75px 0px;
+		}
+		.awrdtitle{
+			font-size: 45px;
+			line-height: 65px;
+			font-weight: 600;
+			letter-spacing: 0.005em
+		}
+		.txtico{
+			margin: 0px 57px 0px 15px;
+		}
+		.awrdtt{
+			max-width: 890px;
+			margin: -30px 0px 0px 170px;
+		}
+	}
+	.rside {
+		margin: -2588px 0px 150px 1380px;
+		max-width: 1060px;
+		.edu {
+			.edutitle{
+				border: 5px solid #7e8b8c;
+				border-left: none;
+				border-top: none;
+				border-right: none;
+				font-size: 50px;
+				line-height: 1.2;
+				font-weight: 600;
+				letter-spacing: 0.025em;
+				padding-bottom: 25px;
+			}
+			.eduli{
+				.circleplus{
+					width: 65px;
+					height: 65px;
+					border: 4px solid #716b69;
+					border-radius: 50%;
+					margin: 75px 0px 0px 0px;
+					font-size: 50px;
+					text-align: center;
+					font-weight: 600;
+					.plus{
+						margin: -5px 0px 0px 1px;
+					}
+				}
+				.listedu{
+					margin: -170px 0px 0px 115px;
+					.edusubtitle{
+						margin: 75px 0px 25px 0px;
+						font-size: 45px;
+						line-height: 65px;
+						font-weight: 600;
+						letter-spacing: 0.005em;
+						.edudate{
+							color: #b0c0bd;
+						}
+						.type{
+							color: #b0c0bd;
+						}
+				}
+				}
+			}
+		}
+		.proskills {
+			.pro {
+				border: 5px solid #7e8b8c;
+				border-left: none;
+				border-top: none;
+				border-right: none;
+				font-size: 50px;
+				line-height: 1.2;
+				font-weight: 600;
+				letter-spacing: 0.025em;
+				padding-bottom: 25px;
+				margin-top: 100px;
+			}
+			.skillconteiner {
+				
+				span{
+					display: inline-block;
+					position: absolute;
+					margin-top: 10px;
+				}
+				font-weight: 600;
+				margin-top: 75px;;
+			.skill1 {
+				.scale1 {
+					background: #e9eeed;
+					width: 757px;
+					height: 65px;
+					border-radius: 50px;
+					display: inline-block;
+					margin: 10px 0px 0px 29%;
+					.scale2 {
+						width: 587px;
+						height: 63px;
+						background-color: #788687;
+						border-radius: 50px;
+					}
+				}
+			}
+			.skill2 {
+				.scale1 {
+					background: #e9eeed;
+					width: 757px;
+					height: 65px;
+					border-radius: 50px;
+					display: inline-block;
+					margin: 10px 0px 0px 29%;
+					.scale2 {
+						width: 645px;
+						height: 63px;
+						background-color: #788687;
+						border-radius: 50px;
+					}
+				}
+			}
+			.skill3 {
+				.scale1 {
+					background: #e9eeed;
+					width: 757px;
+					height: 65px;
+					border-radius: 50px;
+					display: inline-block;
+					margin: 10px 0px 0px 29%;
+					.scale2 {
+						width: 631px;
+						height: 63px;
+						background-color: #788687;
+						border-radius: 50px;
+					}
+				}
+			}
+			.skill4 {
+				.scale1 {
+					background: #e9eeed;
+					width: 757px;
+					height: 65px;
+					border-radius: 50px;
+					display: inline-block;
+					margin: 10px 0px 0px 29%;
+					.scale2 {
+						width: 719px;
+						height: 63px;
+						background-color: #788687;
+						border-radius: 50px;
+					}
+				}
+			}
+			.skill5 {
+				.scale1 {
+					background: #e9eeed;
+					width: 757px;
+					height: 65px;
+					border-radius: 50px;
+					display: inline-block;
+					margin: 10px 0px 0px 29%;
+					.scale2 {
+						width: 521px;
+						height: 63px;
+						background-color: #788687;
+						border-radius: 50px;
+					}
+				}
+			}
+			.skill6 {
+				.scale1 {
+					background: #e9eeed;
+					width: 757px;
+					height: 65px;
+					border-radius: 50px;
+					display: inline-block;
+					margin: 10px 0px 0px 29%;
+					.scale2 {
+						width: 521px;
+						height: 63px;
+						background-color: #788687;
+						border-radius: 50px;
+					}
+				}
+			}
+		}
+		}
+		.perskills {
+			.per{
+				border: 5px solid #7e8b8c;
+				border-left: none;
+				border-top: none;
+				border-right: none;
+				font-size: 50px;
+				line-height: 1.2;
+				font-weight: 600;
+				letter-spacing: 0.025em;
+				padding-bottom: 25px;
+				margin-top: 100px;
+			}
+			.sskilconteiner{
+				max-width: 1060px;
+				max-height: 850px;
+				position: relative;
+				.skilltype{
+					z-index: 3;
+					margin: 150px 0px 0px -270px;
+					display: inline-block;
+					position: absolute;
+				}
+				.skillidea{
+					margin: 150px 0px 0px -240px;
+				}
+				.sskill{
+					display: inline-block;
+					margin: 50px 78px 0px 80px;
+					.imgskills{
+						z-index: 1;
+					}
+					.imgskill1{
+						z-index: 2;
+						margin: 3px 0px 0px -364px;
+					}
+					.imgskill2{
+						z-index: 2;
+						margin: 0px 0px 0px -366px;
+					}
+					.imgskill3{
+						z-index: 2;
+						margin: 0px 0px 0px -350px;
+					}
+					.imgskill4{
+						z-index: 2;
+						margin: 3px 0px 0px -364px;
+					}
+				}
+			}
+		}
+	}
+}
